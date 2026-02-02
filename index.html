@@ -11,6 +11,8 @@
     <h1>Прогнозы на матчи Спартака</h1>
   </header>
 
+  <div id="score"><strong>Ваши очки: 0</strong></div>
+
   <section id="news">
     <h2>Новости клуба</h2>
   </section>
@@ -18,6 +20,16 @@
   <section id="predictions">
     <h2>Прогнозы на матчи</h2>
   </section>
+
+  <div id="mvp">
+    <h2>Выбери MVP матча</h2>
+  </div>
+
+  <div id="guess">
+    <h2>Угадай счёт матча</h2>
+    <input type="text" id="scoreInput" placeholder="Например 2:1">
+    <button onclick="submitGuess()">Отправить</button>
+  </div>
 
   <footer>
     <p>© 2026 Фан-бот Спартака</p>
