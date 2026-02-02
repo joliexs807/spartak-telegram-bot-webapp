@@ -2,6 +2,19 @@ body {
   background-color: #fff;
   color: #e30613;
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 15px;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #e30613;
+  color: #fff;
+}
+
+h1, h2 {
+  margin: 10px 0;
 }
 
 button {
@@ -9,10 +22,18 @@ button {
   color: #fff;
   border: none;
   padding: 10px 20px;
+  margin: 5px;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #ff4d4d;
+}
+
+#news p, #predictions div {
+  border: 1px solid #e30613;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
 }
